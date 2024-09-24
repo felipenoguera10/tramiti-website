@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tramiti - Servicios Inmobiliarios Eficientes</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header y Navegación -->
+  <header>
+    <div class="container">
+      <h1>Tramiti</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#equipo">Nuestro Equipo</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- Sección Home -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Facilitamos tus trámites inmobiliarios</h2>
+      <p>En Tramiti, automatizamos y gestionamos la compraventa para que te enfoques en lo que realmente importa.</p>
+      <a href="#servicios" class="btn-primary">Descubre nuestros servicios</a>
+    </div>
+  </section>
+
+
+  <!-- Sección Servicios -->
+  <section id="servicios" class="services">
+    <div class="container">
+      <h2>Nuestros Servicios</h2>
+      <div class="service-box">
+        <div class="service">
+          <h3>Gestión de Documentación</h3>
+          <p>Recopilamos, verificamos y organizamos toda la documentación necesaria para tu transacción inmobiliaria.</p>
+        </div>
+        <div class="service">
+          <h3>Asesoría Legal</h3>
+          <p>Nuestro equipo de abogados te acompañará durante todo el proceso legal, asegurando que todo esté en regla.</p>
+        </div>
+        <div class="service">
+          <h3>Trámite de Escrituras</h3>
+          <p>Nos encargamos de gestionar todo el proceso de escrituración, con tiempos optimizados y cero errores.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Sección Equipo -->
+  <section id="equipo" class="team">
+    <div class="container">
+      <h2>Nuestro Equipo</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="team1.jpg" alt="Juan Pérez">
+          <h3>Juan Pérez</h3>
+          <p>CEO y Fundador</p>
+        </div>
+        <div class="team-member">
+          <img src="team2.jpg" alt="Ana Gómez">
+          <h3>Ana Gómez</h3>
+          <p>Directora de Operaciones</p>
+        </div>
+        <div class="team-member">
+          <img src="team3.jpg" alt="Luis Rodríguez">
+          <h3>Luis Rodríguez</h3>
+          <p>Jefe de Innovación</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Sección Testimonios -->
+  <section id="testimonios" class="testimonials">
+    <div class="container">
+      <h2>Lo que nuestros clientes dicen</h2>
+      <div class="testimonial">
+        <p>"Tramiti me ayudó a cerrar mi compra de manera eficiente. Un equipo profesional y dedicado."</p>
+        <h4>- Maria Sánchez</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Un servicio integral que cubre todos los aspectos de la compraventa. 100% recomendado."</p>
+        <h4>- Pedro Gómez</h4>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Sección de Contacto -->
+  <section id="contacto" class="contact">
+    <div class="container">
+      <h2>Contáctanos</h2>
+      <form id="contact-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+
+        <button type="submit" class="btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Tramiti. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
